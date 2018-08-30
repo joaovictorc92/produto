@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Sabão em Pó",
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "produto": "Sabão Líquido",
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "produto": "Bolacha",
+      "categoria": 2
+    },
+    {
+      "produto": "Limpeza teste",
+      "categoria": "1",
+      "id": 4
+    },
+    {
+      "produto": "Sabão PHEBO",
+      "categoria": "1",
+      "id": 5
+    },
+    {
+      "produto": "Sabão protex",
+      "categoria": "1",
+      "id": 6
+    },
+    {
+      "produto": "SABÃO EM PÓ",
+      "categoria": "1",
+      "id": 7
+    },
+    {
+      "produto": "SABÃO PEDRA",
+      "categoria": "1",
+      "id": 8
+    }
+  ],
+  "categorias": [
+    {
+      "categoria": "Limpeza",
+      "id": 1
+    },
+    {
+      "categoria": "Alimentos",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "categoria": "Utilitarios"
+    }
+  ]
+}
