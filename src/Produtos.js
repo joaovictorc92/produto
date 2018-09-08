@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
 
-import axios from 'axios'
 
 import ProdutosHome from './ProdutosHome'
 import Categoria from './Categoria'
 import ProdutosNovo from './ProdutosNovo'
+import ProdutosEditar from './ProdutosEditar'
 
 class Produtos extends Component {
     constructor(props) {
@@ -113,6 +113,12 @@ class Produtos extends Component {
                             createProduto={this.props.createProduto}
                         />
                     }} />
+                    <Route path={`${match.url}/editar/:id`} render={(props) => {
+                        return <ProdutosEditar {...props}
+                            readProduto={this.props.readProduto}
+                            categorias = {categorias}
+                            editProduto={this.props.editProduto} />
+                    }} />
                     <Route path={`${match.url}/categoria/:catId`}
                         render={(props) => {
                             return <Categoria {...props}
@@ -120,6 +126,7 @@ class Produtos extends Component {
                                 loadCategoria={this.props.loadCategoria}
                                 produtos={this.props.produtos}
                                 categoria={this.props.categoria}
+                                removeProduto={this.props.removeProduto}
                             />
                         }} />
                 </div>

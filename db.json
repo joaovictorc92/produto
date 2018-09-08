@@ -11,34 +11,19 @@
       "categoria": 1
     },
     {
-      "id": 3,
-      "produto": "Bolacha",
-      "categoria": 2
+      "id": 4,
+      "produto": "Limpeza",
+      "categoria": "1"
     },
     {
-      "produto": "Limpeza teste",
-      "categoria": "1",
-      "id": 4
-    },
-    {
-      "produto": "Sabão PHEBO",
+      "produto": "Sabão em pó",
       "categoria": "1",
       "id": 5
     },
     {
-      "produto": "Sabão protex",
-      "categoria": "1",
-      "id": 6
-    },
-    {
-      "produto": "SABÃO EM PÓ",
-      "categoria": "1",
-      "id": 7
-    },
-    {
-      "produto": "SABÃO PEDRA",
-      "categoria": "1",
-      "id": 8
+      "id": 6,
+      "produto": "Biscoito",
+      "categoria": "2"
     }
   ],
   "categorias": [
